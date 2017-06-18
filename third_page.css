@@ -1,0 +1,49 @@
+body{
+  font-family: Garamond, Times, serif;
+  color: #222;
+  border: 10px solid rgb(54, 79, 143);
+  background: #ffffff url("https://images8.alphacoders.com/710/thumb-1920-710504.png") no-repeat center fixed;
+}
+
+.button {
+	background-color: rgb(54, 79, 143);
+	border: none;
+	color: #ffffff;
+	padding: 18px 36px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-family: Garamond, Times, serif;
+	font-size: 18px;
+}
+
+#animal-info{
+  padding: 15px;
+  font-weight: bold;
+}
+
+h1{
+  padding: 15px;
+}
+
+#btn{
+  background-color: rgb(59, 93, 161);
+  border: none;
+  border-radius: 15px;
+  padding: 15px;
+  color: #ffffff;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+#btn:hover {
+  background-color: rgb(85, 138, 180);
+}
+
+.no-click{
+  opacity: 0.6;
+  cursor: not-allowed;
+}

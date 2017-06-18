@@ -1,0 +1,43 @@
+body {
+	font-family: Garamond, Times, serif;
+	color: #222;
+	border: 10px solid #4f6d8a;
+	background: #ffffff url("https://images7.alphacoders.com/557/thumb-1920-557051.jpg") no-repeat center fixed;
+}
+.button {
+	background-color: #4f6d8a;
+	border: none;
+	color: #ffffff;
+	padding: 18px 36px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-family: Garamond, Times, serif;
+	font-size: 18px;
+}
+.about {
+	font-style: italic;
+	font-variant: small-caps;
+	letter-spacing: 3px;
+	font-size: 200%;
+}
+.bio {
+	position: static;
+	border: 100px solid transparent;
+}
+.bio p {
+	border: 9px;
+	background-color: #ffffff;
+	border-radius: 9px;
+}
+.content {
+	font-size: 130%;
+}
+@media all and (max-width: 700px) {
+	body {
+		display: block;
+		margin: 0px;
+		background: #ffffff url("https://vignette1.wikia.nocookie.net/yuyuhakusho/images/f/fe/Vlcsnap-2011-03-27-20h49m55s57.jpg/revision/latest?cb=20110328015036") no-repeat center fixed;
+		background-size: cover;
+	}
+}
